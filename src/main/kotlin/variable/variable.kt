@@ -1,5 +1,0 @@
-package variable
-
-class variable {
-
-}
