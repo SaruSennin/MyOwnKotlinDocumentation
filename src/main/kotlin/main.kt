@@ -1,4 +1,5 @@
 import collections.ListCollection
+import collections.SetCollection
 
 fun main(args: Array<String>) {
 
@@ -8,10 +9,11 @@ fun main(args: Array<String>) {
     // java
     System.out.println("Hello Java!");
 
+//    val list = ListCollection()
+//    list.listKotlin()
 
-    val list = ListCollection()
-
-    list.list()
+//    val set = SetCollection()
+//    set.setCollection()
 
 }
 
