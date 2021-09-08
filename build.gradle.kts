@@ -13,7 +13,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    testImplementation("org.codehaus.groovy:groovy-all:2.4.15")
+    testImplementation("org.spockframework.spock:spock-core:spock-1.3")
 }
 
 tasks.test {

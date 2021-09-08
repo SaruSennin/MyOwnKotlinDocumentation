@@ -9,8 +9,10 @@ fun main(args: Array<String>) {
     // java
     System.out.println("Hello Java!");
 
-//    val list = ListCollection()
-//    list.listKotlin()
+    val stringList = listOf("element1", "element1", "element2", "element2", "element3", "element3", "element4", "element4")
+
+    val list = ListCollection()
+    list.printingImmutableLists(stringList)
 
 //    val set = SetCollection()
 //    set.setCollection()

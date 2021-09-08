@@ -2,6 +2,11 @@ package collections
 
 class ListCollection {
 
+    fun printingImmutableLists(immutableLists: List<String>){
+        println("Zawartość listy niemutowalnej")
+        println(immutableLists)
+    }
+
     fun listKotlin(){
 
         // Lista definicja
@@ -25,6 +30,8 @@ class ListCollection {
         val emptyStringList = listOf<String>()
 
         //**************************************************************************************************************
+
+
 
         // Wyświetlanie listy elementów.
         println(stringList)
